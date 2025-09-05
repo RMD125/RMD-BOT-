@@ -1,0 +1,33 @@
+{
+  "session": {
+    "phoneNumber": "+22896190934",
+    "sessionPath": "sessions/session.json"
+  },
+  "bot": {
+    "name": "RMD-BOT",
+    "version": "RMD-V5",
+    "adminNumber": "22896190934",
+    "prefix": "!",
+    "autoReadMessages": true,
+    "autoReconnect": true,
+    "maxRetryAttempts": 5
+  },
+  "permissions": {
+    "allowGroups": true,
+    "allowBroadcast": false,
+    "maxGroupMembers": 100,
+    "blockedNumbers": []
+  },
+  "features": {
+    "autoReply": true,
+    "welcomeMessage": true,
+    "antiSpam": true,
+    "backupSessions": true,
+    "logActivities": true
+  },
+  "apis": {
+    "openWeatherKey": "",
+    "googleSearchKey": "",
+    "youtubeApiKey": ""
+  }
+}
