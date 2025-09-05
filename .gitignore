@@ -1,0 +1,84 @@
+# Fichiers de session et configurations sensibles
+/sessions/
+!/sessions/.gitkeep
+config.json
+
+# Fichiers de compilation et build
+/build/
+/bin/
+/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Fichiers de logs
+/logs/
+*.log
+*.log.*
+
+# Sauvegardes
+/backups/
+*.backup
+*.bak
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Fichiers d'environnement
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Fichiers IDE
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Fichiers de système
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Fichiers Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers de cache
+.cache/
+.parcel-cache/
+
+# Fichiers de dépendances
+/lib/
+!/lib/.gitkeep
+
+# Fichiers de coverage de tests
+/coverage/
+*.lcov
+
+# Fichiers de documentation générée
+/docs/api/
+/docs/build/
+
+# Fichiers de déploiement
+/dist/
+/out/
+/release/
+
+# Fichiers spécifiques au projet
+*.orig
+*.rej
