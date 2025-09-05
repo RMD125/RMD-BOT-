@@ -1,0 +1,32 @@
+# Fichiers de session
+/sessions/
+!/sessions/session.example.json
+
+# Fichiers de compilation
+/build/
+/bin/
+/*.class
+
+# Logs
+/logs/
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Fichiers d'environnement
+.env
+.config
+
+# Fichiers de configuration personnels
+config.json
+
+# Fichiers IDE
+.vscode/
+.idea/
+*.iml
+
+# Système
+.DS_Store
+Thumbs.db
