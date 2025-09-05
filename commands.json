@@ -1,0 +1,62 @@
+[
+  {
+    "name": "help",
+    "description": "Affiche l'aide et la liste des commandes",
+    "usage": "!help",
+    "category": "general"
+  },
+  {
+    "name": "info",
+    "description": "Affiche les informations du bot",
+    "usage": "!info",
+    "category": "general"
+  },
+  {
+    "name": "ping",
+    "description": "Test de réponse du bot",
+    "usage": "!ping",
+    "category": "general"
+  },
+  {
+    "name": "menu",
+    "description": "Affiche le menu principal",
+    "usage": "!menu",
+    "category": "general"
+  },
+  {
+    "name": "joke",
+    "description": "Raconte une blague aléatoire",
+    "usage": "!joke",
+    "category": "fun"
+  },
+  {
+    "name": "quote",
+    "description": "Affiche une citation inspirante",
+    "usage": "!quote",
+    "category": "fun"
+  },
+  {
+    "name": "fact",
+    "description": "Affiche un fait intéressant",
+    "usage": "!fact",
+    "category": "fun"
+  },
+  {
+    "name": "sticker",
+    "description": "Crée un sticker à partir d'une image",
+    "usage": "!sticker [réponse à une image]",
+    "category": "tools"
+  },
+  {
+    "name": "tts",
+    "description": "Convertit le texte en message vocal",
+    "usage": "!tts [texte]",
+    "category": "tools"
+  },
+  {
+    "name": "translate",
+    "description": "Traduit du texte",
+    "usage": "!translate [langue] [texte]",
+    "category": "tools"
+  }
+]
